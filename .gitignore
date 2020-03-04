@@ -1,0 +1,6 @@
+##ignore some cache files##
+.vscode/
+.ipynb_checkpoints/
+__pycache__/
+.idea/
+
