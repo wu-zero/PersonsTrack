@@ -73,7 +73,7 @@ class VideoCapture:
                     pass
             self.image_q.put(frame)
             if DebugFlag:
-                print( "camraID: ", self._cameraID, " 读网络帧时间：", time.time()-start)
+                print("camraID: ", self._cameraID, " 读网络帧时间：", time.time()-start)
 
     def read(self):
         self._frame_i += 1
